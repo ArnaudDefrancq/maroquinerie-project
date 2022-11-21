@@ -1,0 +1,20 @@
+{
+  "name": "project-maroquinerie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./style/scss/main.scss:./style/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnaudDefrancq/maroquinerie-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnaudDefrancq/maroquinerie-project/issues"
+  },
+  "homepage": "https://github.com/ArnaudDefrancq/maroquinerie-project#readme"
+}
