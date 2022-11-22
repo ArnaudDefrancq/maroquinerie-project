@@ -1,6 +1,7 @@
 .header {
     position: absolute;
     width: 100%;
+    z-index: 3;
 }
 
 .nav-container {
@@ -37,6 +38,7 @@
 
 .items {
     transition: ease 0.4s;
+
 }
 .items:hover {
     color: $color-primary;

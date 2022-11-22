@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    color: white;
+    margin-top: 6%;
+    padding: 3% 12%;
+    background: $color-tertiary;
+        &_container {
+            width: 34%;
+            &_items {
+                display: flex;
+                align-items: center;
+                margin-top: 5%;
+                color: $color-primary;
+                    &_icon {
+                        margin-right: 2%;
+                    }
+            }
+            &_social {
+                margin: 3% auto 0;
+                width: 35%;
+                display: flex;
+                justify-content: space-evenly;
+                
+                &_items {
+                    font-size: 1.4em;
+                    transition: ease 0.4s;
+                }
+                &_items:hover {
+                    color: $color-primary;
+                    transition: 0.4s;
+                }
+            }
+            &_about {
+                margin: 5% auto 0;
+                width: 80%;
+            }
+        } 
+
+}
+.align {
+    text-align: center;
+}
