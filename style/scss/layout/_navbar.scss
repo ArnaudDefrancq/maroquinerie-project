@@ -1,0 +1,44 @@
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+        &_nav-bar {
+            width: 50%;
+                &_list {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 100%;
+                    font-size: 1.4em;
+                    text-transform: uppercase;
+                    
+                }
+        }
+}
+
+.position {
+    position: relative;
+}
+
+.item-1::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 70px;
+    background: $color-primary;
+    top: 30px;
+    left: 11px;
+}
+
+.items {
+    transition: ease 0.4s;
+}
+.items:hover {
+    color: $color-primary;
+    transition: 0.4s;
+}
