@@ -1,0 +1,22 @@
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+     &_container {    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+            &_logo {
+                height: 150px;
+            }
+            &_title {
+                margin-top: 30px;
+            }
+            &_text {
+                width: 80%;
+                margin: 10px 0;
+                text-align: center;
+            }
+     }
+}
