@@ -2,6 +2,8 @@
 
 @import "./utils/variables.scss";
 
+@import "./utils/mixin/mixin_box";
+
 @import "./layout/navbar";
 
 @import "./layout/header";
@@ -9,3 +11,5 @@
 @import "./layout/btn";
 
 @import "./layout/section-2";
+
+@import "./layout/section-3";

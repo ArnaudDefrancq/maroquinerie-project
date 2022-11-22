@@ -15,6 +15,10 @@ a {
   color: white;
 }
 
+.section {
+  max-width: 80%;
+}
+
 @font-face {
   font-family: "roboto";
   src: url(../../../fonts/font_roboto/RobotoMono-VariableFont_wght.ttf);
@@ -121,7 +125,7 @@ a {
 
 .section-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 100px auto;
 }
 .section-2_container {
@@ -140,6 +144,46 @@ a {
   width: 80%;
   margin: 10px 0;
   text-align: center;
+}
+
+.section-3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 12%;
+  margin-bottom: 200px;
+  color: white;
+}
+.section-3::after {
+  content: "";
+  position: absolute;
+  background: url(../../../images/item-1.jpg) center/cover;
+  top: 0;
+  left: 30%;
+  height: 650px;
+  width: 1000px;
+  z-index: -1;
+}
+.section-3_container {
+  margin-top: 80px;
+  width: 45%;
+  background-color: rgb(51, 36, 25);
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.section-3_container_title {
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+.section-3_container_text {
+  margin-top: 25px;
+  font-size: 0.9em;
+}
+.section-3_container_link {
+  margin: 10% auto 0;
+  width: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
