@@ -1,6 +1,5 @@
 @mixin boxItems {
-    margin-top: 165px;
-    width: 45%;
+    width: 50%;
     background-color: $color-secondary;
     padding: 100px 50px;
     display: flex;
@@ -24,7 +23,7 @@
 @mixin items {
     content: "";
     position: absolute;
-    height: 800px;
-    width: 1000px;
+    height: 100%;
+    width: 65%;
     z-index: -1;
 }

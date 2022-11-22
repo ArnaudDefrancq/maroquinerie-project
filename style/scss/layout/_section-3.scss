@@ -3,16 +3,16 @@
     display: flex;
     align-items: center;
     margin-left: 12%;
-    margin-bottom: 200px;
     color: white;
         &::after {
             @include items;
             background: url(../../../images/item-1.jpg) center/cover;
             top: 0;
-            left: 30%;
+            right: 0;
         }
         &_container {   
             @include boxItems;
+            margin: 5% 0;
         }
 
 }
