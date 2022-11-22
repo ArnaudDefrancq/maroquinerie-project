@@ -123,6 +123,20 @@ a {
   transition: 0.2s;
 }
 
+.btn-2 {
+  background-color: rgb(180, 134, 100);
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 3px solid rgb(180, 134, 100);
+  transition: ease 0.2s;
+}
+
+.btn-2:hover {
+  background-color: white;
+  color: rgb(180, 134, 100);
+  transition: 0.2s;
+}
+
 .section-2 {
   display: flex;
   justify-content: space-between;
@@ -296,6 +310,11 @@ a {
 }
 .section-6_container_about_text {
   margin-top: 3%;
+}
+.section-6_btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
 }
 
 .right {
