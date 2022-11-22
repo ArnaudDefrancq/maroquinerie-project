@@ -6,30 +6,13 @@
     margin-bottom: 200px;
     color: white;
         &::after {
-            content: "";
-            position: absolute;
+            @include items;
             background: url(../../../images/item-1.jpg) center/cover;
             top: 0;
             left: 30%;
-            height: 650px;
-            width: 1000px;
-            z-index: -1;
         }
         &_container {   
             @include boxItems;
-            &_title {
-                text-transform: uppercase;
-                margin-left: 30px;
-                font-weight: bolder;
-            }
-            &_text {
-                margin-top: 25px;
-                font-size: 0.9em;
-            }
-            &_link {
-                margin: 10% auto 0;
-                width: 50%;
-            }
         }
 
 }

@@ -1,8 +1,30 @@
 @mixin boxItems {
-    margin-top: 80px;
+    margin-top: 165px;
     width: 45%;
     background-color: $color-secondary;
     padding: 100px 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+    &_title {
+        text-transform: uppercase;
+        margin-left: 30px;
+        font-weight: bolder;
+    }
+    &_text {
+        margin-top: 25px;
+        font-size: 0.9em;
+    }
+    &_link {
+        margin: 10% auto 0;
+        width: 50%;
+    }
+};
+
+
+@mixin items {
+    content: "";
+    position: absolute;
+    height: 800px;
+    width: 1000px;
+    z-index: -1;
 }
