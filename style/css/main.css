@@ -16,7 +16,7 @@ a {
 }
 
 .section {
-  max-width: 80%;
+  max-width: 75%;
 }
 
 @font-face {
@@ -242,7 +242,6 @@ a {
 
 .section-5 {
   position: relative;
-  margin-bottom: 200px;
 }
 .section-5::after {
   content: "";
@@ -272,6 +271,43 @@ a {
 }
 .section-5_container_contact {
   margin-top: 5%;
+}
+
+.section-6 {
+  margin: 3% auto;
+}
+.section-6_container {
+  display: flex;
+  align-items: center;
+}
+.section-6_container_img {
+  width: 50%;
+}
+.section-6_container_img-solo {
+  filter: grayscale(100%);
+  width: 50%;
+  height: 700px;
+}
+.section-6_container_about {
+  width: 50%;
+}
+.section-6_container_about_title {
+  font-family: "jost", sans-serif;
+}
+.section-6_container_about_text {
+  margin-top: 3%;
+}
+
+.right {
+  padding-right: 3%;
+}
+
+.left {
+  padding-left: 3%;
+}
+
+.space {
+  margin-top: 10%;
 }
 
 /*# sourceMappingURL=main.css.map */

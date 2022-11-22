@@ -1,0 +1,34 @@
+.section-6 {
+    margin: 3% auto;
+        &_container {
+            display: flex;
+            align-items: center;
+            &_img {
+                width: 50%;
+            }
+            &_img-solo {
+                filter: grayscale(100%);
+                width: 50%;
+                height: 700px;
+            }
+            &_about {
+                width: 50%;
+                &_title {
+                    font-family: "jost", sans-serif;
+                }
+                &_text {
+                    margin-top: 3%;
+                }
+            }
+        }
+}
+
+.right {
+    padding-right: 3%;
+}
+.left {
+    padding-left: 3%;
+}
+.space {
+    margin-top: 10%;
+}
