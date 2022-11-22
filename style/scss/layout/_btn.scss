@@ -1,0 +1,12 @@
+.btn  {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 50px;
+    transition: ease 0.2s;
+}
+
+.btn:hover {
+    color: $color-primary;
+    border-color: $color-primary;
+    transition: 0.2s;
+}
