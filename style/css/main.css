@@ -73,44 +73,6 @@ a {
   transition: 0.4s;
 }
 
-.section-1 {
-  position: relative;
-  height: 100vh;
-}
-.section-1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: url(../../../images/bannier.jpg) center/cover;
-  filter: brightness(50%);
-  z-index: -1;
-}
-.section-1_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  color: white;
-}
-.section-1_container_title {
-  padding-top: 2%;
-  font-family: "jost", sans-serif;
-  font-size: 3.5em;
-  font-weight: 200;
-}
-.section-1_container_sub-head {
-  font-weight: 200;
-  margin-top: 1%;
-}
-.section-1_container_more {
-  margin-top: 5%;
-}
-
 .btn {
   border: 3px solid white;
   border-radius: 5px;
@@ -136,6 +98,44 @@ a {
   background-color: white;
   color: rgb(180, 134, 100);
   transition: 0.2s;
+}
+
+.section-1 {
+  position: relative;
+  height: 100vh;
+}
+.section-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../../../images/accueil/bannier.jpg) center/cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+.section-1_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.section-1_container_title {
+  padding-top: 2%;
+  font-family: "jost", sans-serif;
+  font-size: 3.5em;
+  font-weight: 200;
+}
+.section-1_container_sub-head {
+  font-weight: 200;
+  margin-top: 1%;
+}
+.section-1_container_more {
+  margin-top: 5%;
 }
 
 .section-2 {
@@ -174,7 +174,7 @@ a {
   height: 100%;
   width: 65%;
   z-index: -1;
-  background: url(../../../images/item-1.jpg) center/cover;
+  background: url(../../../images/accueil/item-1.jpg) center/cover;
   top: 0;
   right: 0;
 }
@@ -216,7 +216,7 @@ a {
   height: 100%;
   width: 65%;
   z-index: -1;
-  background: url(../../../images/item-2.jpg) center/cover;
+  background: url(../../../images/accueil/item-2.jpg) center/cover;
   top: 0;
   left: 0;
 }
@@ -261,7 +261,7 @@ a {
 .section-5::after {
   content: "";
   position: absolute;
-  background: url(../../../images/item-3.jpg) center/cover;
+  background: url(../../../images/accueil/item-3.jpg) center/cover;
   filter: brightness(50%);
   background-attachment: fixed;
   top: 0;

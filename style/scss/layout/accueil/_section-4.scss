@@ -9,7 +9,7 @@
     color: white;
         &::after {
             @include items;
-            background: url(../../../images/item-2.jpg) center/cover;
+            background: url(../../../images/accueil/item-2.jpg) center/cover;
             top: 0;
             left: 0;
         }
