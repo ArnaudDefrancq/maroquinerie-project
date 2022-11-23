@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  max-width: 75%;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../../../fonts/font_roboto/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "jost";
+  src: url(../../../fonts/font_jost/Jost-VariableFont_wght.ttf);
+}
+.header {
+  position: relative;
+  width: 100%;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background: url(../../../../images/accueil/bannier.jpg) center/cover;
+  filter: brightness(50%);
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.nav-container_nav-bar {
+  width: 50%;
+}
+.nav-container_nav-bar_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.position {
+  position: relative;
+}
+
+.item-1::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 75px;
+  background: rgb(180, 134, 100);
+  top: 35px;
+  left: 11px;
+}
+
+.items {
+  transition: ease 0.4s;
+}
+
+.items:hover {
+  color: rgb(180, 134, 100);
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=produit.css.map */

@@ -1,9 +1,3 @@
-.header {
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-}
-
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -30,7 +24,7 @@
     content: "";
     position: absolute;
     height: 3px;
-    width: 60px;
+    width: 75px;
     background: $color-primary;
     top: 35px;
     left: 11px;

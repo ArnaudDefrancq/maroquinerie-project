@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    width: 100%;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            background: url(../../../../images/accueil/bannier.jpg) center/cover;
+            filter: brightness(50%);
+            height: 50vh;
+            width: 100%;
+            z-index: -1;
+        }
+}

@@ -4,11 +4,13 @@
 
 @import "./utils/mixin/mixin_box";
 
-@import "./layout/navbar";
+@import "./layout/commun/navbar";
 
 @import "./layout/btn";
 
 @import "./layout/accueil/header";
+
+@import "./layout/accueil/section-1";
 
 @import "./layout/accueil/section-2";
 
