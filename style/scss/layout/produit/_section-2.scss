@@ -50,7 +50,7 @@
         }
 }
 
-.position {
+.position-2 {
     position: relative;
     &::after {
         content: "";
@@ -58,7 +58,7 @@
         height: 3px;
         width: 50%;
         background: black;
-        bottom: -100px;
+        bottom: -20%;
         left: 25%;
     }
 }
