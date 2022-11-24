@@ -133,28 +133,38 @@ a {
 
 .section-2 {
   display: flex;
-  margin: 5% auto;
-  position: relative;
-}
-.section-2::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 50%;
-  background: black;
-  bottom: 0;
-  left: 25%;
+  justify-content: space-between;
+  margin: 5% auto 10%;
 }
 .section-2_container {
   display: flex;
+  height: 450px;
+  width: 650px;
 }
-.section-2_container_img {
-  width: 40%;
-  height: 80%;
+.section-2_container_img-i1 {
+  background: url(../../../../images/produit/produit-1.jpg) center/cover;
+  height: 100%;
+  width: 100%;
+}
+.section-2_container_img-i2 {
+  background: url(../../../../images/produit/produit-2.jpg) center/cover;
+  height: 100%;
+  width: 100%;
+}
+.section-2_container_img-b1 {
+  background: url(../../../../images/produit/boots-1.jpg) center/cover;
+  height: 100%;
+  width: 100%;
+}
+.section-2_container_img-b2 {
+  background: url(../../../../images/produit/boots-2.jpg) center/cover;
+  height: 100%;
+  width: 100%;
 }
 .section-2_container_produit {
   height: 80%;
-  margin-left: 2%;
+  width: 100%;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,6 +180,61 @@ a {
   margin-top: 4%;
   font-size: 1.5em;
   color: rgb(180, 134, 100);
+}
+
+.position {
+  position: relative;
+}
+.position::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  background: black;
+  bottom: -100px;
+  left: 25%;
+}
+
+.section-3 {
+  color: white;
+  margin-left: 12%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3%;
+}
+.section-3::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 65%;
+  z-index: -1;
+  background: url(../../../../images/accueil/item-2.jpg) center/cover;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  left: 0;
+}
+.section-3_container {
+  width: 50%;
+  background-color: rgb(51, 36, 25);
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 4% 0;
+}
+.section-3_container_title {
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+.section-3_container_text {
+  margin-top: 25px;
+  font-size: 0.9em;
+}
+.section-3_container_link {
+  margin: 10% auto 0;
+  width: 50%;
 }
 
 /*# sourceMappingURL=produit.css.map */

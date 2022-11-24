@@ -1,0 +1,20 @@
+.section-3 {
+    color: white;
+    margin-left: 12%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    &::after {
+        @include items;
+        background: url(../../../../images/accueil/item-2.jpg) center/cover;
+        height: 100%;
+        width: 70%;
+        top: 0;
+        left: 0;
+    }
+        &_container {
+            @include boxItems;
+            margin:4% 0;
+            }
+}
